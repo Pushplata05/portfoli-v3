@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
+*{
+
+    padding: 0;
+}
+
+:root {
+    --brand: #e64646;
+    --body: #606060;
+    --dark: #19282F;
+    --border-radius: 4px;
+    --shadow: 0px 4px 60px rgba(0, 0, 0, 0.14);
+}
+
+/* reset & helpers */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    color: var(--dark);
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+a {
+    color: var(--dark);
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+
+a:hover {
+    color: var(--brand);
+}
+
+a.custom-link {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+.tabs-content{
+    font-family: 'Poppins';
+}
+.portfolio-page img {
+    width: 100%;
+    height: 750px;
+}
+.portfolio-page a {
+    color: var(--dark);
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+.portfolio-page .span-1{
+    color: #e64646;
+}
+.portfolio-page .span-2{
+    font-weight: 300;
+    color: #e64646;
+}
+.portfolio-page .span-2{
+    font-weight: 300;
+    color: #e64646;
+}
+.portfolio-page  .arrow {
+    width: 120px;
+  }
+  .portfolio-page .line1 {
+    margin-top: 14px;
+    width: 2px;
+    background: #e64646;
+    height: 59px;
+    /* float: left; */
+    position: relative;
+    top: 5px;
+    left: 4px;
+}
+  
+.portfolio-page .line {
+    flex-grow: 1;
+    height: 2px;
+    width: 700px;
+    background: #e64646;
+    position: relative;
+    margin-top: 70px;
+}
+ .portfolio-page  .point1 {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #e64646;
+}
+  .portfolio-page  .point {
+    
+        width: 0; 
+        height: 0; 
+        border-left: 6px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #e64646;
+      
+  }
+
+.portfolio-page .heading-2{
+    font-size: 18px !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--dark);
+    font-family: 'Poppins';
+
+}
+.portfolio-page .border-boxes {
+    width: 135px;
+    height: 53px;
+    /* text-align: center !important; */
+    display: flex;
+
+    align-items: center;
+}
+.portfolio-page .border-boxes-2 {
+    width: 135px;
+    height: 53px;
+    padding-top: 12px;
+    /* text-align: center !important; */
+    /* display: flex; */
+    align-items: center;
+}
+.portfolio-page .img .arrow2 {
+    /* width: 1050px; */
+    position: absolute;
+    right: 140px;
+    top: -80px;
+    left: auto;
+    bottom: auto;
+}
+.portfolio-page .line2 {
+    /* margin-top: 14px; */
+    width: 2px;
+    background: #e64646;
+    height: 25px;
+    /* float: left; */
+    position: relative;
+    top: 5px;
+    left: 4px;
+}
+.portfolio-page .line3 {
+    /* margin-top: 14px; */
+    width: 850px;
+    background: #e64646;
+    height: 1px;
+    float : left;
+    position: relative;
+    top: 5px;
+    left: 6px;
+
+}
+ 
+.portfolio-page .img{
+    position: relative;
+    padding-top: 0px;
+}
+.portfolio-page .point2 {
+    width: 0;
+    height: 0;
+    top: 2px;
+    left: 850px;
+    position: relative;
+    border-left: 6px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #e64646;
+    transform: rotate(-0.25turn);
+}
+.portfolio-page .btn-outline-secondary {
+    color: #6c757d;
+    border: 1px solid #c7c7c7;
+    border-radius: 0;
+}
+.portfolio-page .border1{
+    border: 1px solid #c7c7c7;
+    border-radius: 0;
+}
+.portfolio-page .button-last {
+    border: 1px solid #e64646;
+    padding: 10px 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 191px;
+    font-weight: 900;
+    color: black;
+    bottom: 30px;
+    right: 90px;
+    position: relative;
+    height: 51px;
+    float: right;
+    display: flex !important;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.portfolio-page .font{
+    font-size:12px;
+}
+.portfolio-page .img-1{
+    padding: 50px 50px 20px 0px !important;
+    height: 100%;
+        width: 100%;
+    
+}
+
+
+
+.portfolio-page .img .arrow1 {
+    padding: 30px 0px 0px 0px;
+}
+.portfolio-page .img-cont{
+   
+        height: 100%;
+        width: 100%;
+    
+        
+}
+.portfolio-page .line-last {
+    /* margin-top: 14px; */
+    width: 2px;
+    background: #e64646;
+    height: 25px;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 50px;
+}
+.portfolio-page .line {
+    flex-grow: 1;
+    height: 2px;
+    width: 70%;
+    background: #e64646;
+    position: relative;
+}
+  
+.portfolio-page .line.arrow-right:after {
+    position: absolute;
+    content: '';
+    bottom: -6px;
+    right: -2px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #e64646;
+}
+.portfolio-page .line.arrow-right:before {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    left: 0px;
+    height: 70px;
+    width: 2px;
+    background: #e64646;
+}
+.portfolio-page .arrow1 {
+    height: 100%;
+    padding-bottom: 50px;
+}
+.portfolio-page .point-last {
+    width: 0px;
+    float: right;
+    right: 44px;
+    top: 0px;
+    position: relative;
+    height: 0px;
+    transform: rotate(3.142rad);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #e64646;
+}
+.portfolio-page .text-1{
+    font-size: 15px;
+}
+.portfolio-page .title{
+  font-size: 30px;
+  font-weight: 800;
+}
+.tabs-content .nav
+     {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center !important;
+    margin-bottom: 0;
+    list-style: none;
+    border:  none;
+}
+
+.tabs-content .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+   
+    border-color: #dee2e6 #dee2e6 #fff;
+    color: white;
+    background: #e64646;
+    border-radius: 2px solid #e64646;
+    border: none !important;
+
+}
+.tabs-content .nav-link.active:after {
+    content: '';
+    position: relative;
+    top: 50px;
+    /* bottom: -10px; */
+    right: 40px;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #e64646;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.tabs-content .mobile {
+    border-bottom: 2px solid black !important;
+    border-radius: 0px;
+    border-right: 2px solid black !important;
+    height: 56px;
+    width: 176px;
+    color: black;
+    font-weight: 900;
+    border-top: 2px solid black !important;
+    font-size: 22px;
+}
+
+.tabs-content
+    .website {
+    border-bottom: 2px solid black !important;
+    border-radius: 0px;
+    border-left: 2px solid black !important;
+    height: 56px;
+    width: 176px;
+    color: black;
+    font-weight: 900;
+    border-top: 2px solid black !important;
+    font-size: 22px;
+}
+.portfolio-page .case-study {
+
+        color: black;
+        font-weight: 900;
+        font-size: 22px;
+}
+
+.portfolio-page .scrollbar {
+    float: left;
+    height: 702px;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    /* margin-bottom: 25px; */
+}
+  .portfolio-page .force-overflow {
+    min-height: 30500px;
+  }
+  
+  .portfolio-page #wrapper {
+    text-align: center;
+    margin: auto;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+ 
+  
+   .portfolio-page #style-2::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px white;
+      border-radius: 0px;
+      background-color: #F5F5F5;
+  }
+  
+  .portfolio-page #style-2::-webkit-scrollbar
+  {
+      width: 4px;
+    min-height: 20px;
+      background-color: #F5F5F5;
+  }
+  
+  .portfolio-page #style-2::-webkit-scrollbar-thumb
+  {
+    height: 20px;
+      border-radius: 15px;
+      -webkit-box-shadow: inset 0 0 white;
+      background-color: #D62929;
+  }
+  
+  /*
+   *  STYLE 3
+   */
+  
+  
